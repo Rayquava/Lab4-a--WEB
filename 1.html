@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Change Content Example</title>
-    <script>
-        // JavaScript function to change the content of the <p> tag
-        function changeContent() {
-            document.querySelector("#myElement p").textContent = "Hello there!";
-        }
-    </script>
+  <meta charset="UTF-8">
+  <title>Change Content Example</title>
 </head>
 <body>
-    <div id="myElement">
-        <p>Welcome to my website!</p>
-    </div>
 
-    <!-- Button to trigger the content change -->
-    <button onclick="changeContent()">Change Content</button>
+<div id="myElement">
+  <p>Welcome to my website!</p>
+</div>
+
+<script>
+  document.querySelector("#myElement p").textContent = "Hello there!";
+</script>
+
 </body>
 </html>
-
